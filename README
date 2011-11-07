@@ -14,14 +14,3 @@ Please download the following files:
 * infix.lisp[borrowed from Norvig and Russell who borrowed it from Mark Kantrowitz] This file is not necessary. Its main purpose is to allow writting axioms and theorems in infix form.
 * load-prover.lispLoads all the above files.
 * test1.lgcA small list of axioms used for testing the system. 
-
-A theorem prover written in Common Lisp. The prover implements classic resolution as described in the text books. Its main purpose is to allow students to experiment with resolution theorem proving.
-
-Please download the following files:
-
-    prover.lisp [written by Shaul Markovitch]. This is the main file and contains the resolution theorem prover.
-    unify.lisp[Borrowed from Norvig and Russell]. The file contains the unify function and its auxilary functions.
-    cnf.lisp [Borrowed from Russell and Norvig]. Contains the code to convert formula to cnf form.
-    infix.lisp[borrowed from Norvig and Russell who borrowed it from Mark Kantrowitz] This file is not necessary. Its main purpose is to allow writting axioms and theorems in infix form.
-    load-prover.lispLoads all the above files.
-    test1.lgcA small list of axioms used for testing the system. 
